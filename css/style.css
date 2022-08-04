@@ -19,3 +19,54 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  body{
+    font-family:'roboto_regular' ;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+header{
+    overflow: hidden;
+    background-color:#395B64;
+}
+
+ .container{
+    width: 1100px;
+    margin: auto;
+ }
+
+ nav#navbar div#logoSet {
+    float:left;
+    width:40%;
+ }
+
+ nav#navbar div#logoSet h1 a{
+    display: block;
+    padding:25px 20px;
+    color: #E7F6F2;
+    font-size: 22px;
+    font-family:'roboto_light';
+    letter-spacing: 6px;
+    text-shadow: 2px 2px 3px #2e2e2e;
+ }
+
+ nav#navbar div#navSet{
+    float:left;
+    width:60%;
+ }
+
+ nav#navbar div#navSet ul li{
+    list-style-type: none;
+ }
+
+ nav#navbar div#navSet ul li a{
+    float: right;
+    display: block;
+    padding: 25px 20px;
+    color:#A5C9CA;
+    margin-left: 10px;
+    line-height: 25px;
+ }
