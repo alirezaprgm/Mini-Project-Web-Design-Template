@@ -12,3 +12,10 @@
     font-family: 'roboto_light';
     src: url(../fonts/Roboto-Light.woff);
 }
+
+/* Css Reset */
+*,body,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
