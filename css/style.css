@@ -67,7 +67,6 @@ header{
     display: block;
     padding: 25px 20px;
     color:#ffffff;
-    /* margin-left: 4px; */
     line-height: 25px;
  }
 
@@ -77,7 +76,6 @@ header{
  }
 
  /*start showcase section*/
-
 .lead{
   font-size: 20px;
 }
@@ -89,7 +87,6 @@ header{
     background: #395B64;
     padding: 13px 20px;
     border: none;
-    /* cursor: pointer; */
 }
 
 .btn:hover{
@@ -126,6 +123,44 @@ section#home-info{
   height: 400px;
   background-color: #333;
 }
+
+#home-info .info-img{
+  float: left;
+  width: 50%;
+  height:100%;
+}
+
+#home-info .info-img  iframe{
+  border: 0;
+  width: 100%;
+  height:100%;
+}
+
+#home-info .info-content{
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin: auto;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.info-content h2{
+  color: #A5C9CA;
+  text-shadow: 2px 2px 3px #2e2e2e;
+  font-family: 'roboto_light';
+  margin-top: 30px;
+}
+
+#home-info .info-content p{
+  padding-bottom: 30px;
+}
+
+div.info-content #more-btn{
+  margin-top: 12px;
+  width: 150px;
+}
+
 
 
 
