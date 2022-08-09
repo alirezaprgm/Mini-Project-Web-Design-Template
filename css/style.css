@@ -67,7 +67,7 @@ header{
     display: block;
     padding: 25px 20px;
     color:#ffffff;
-    margin-left: 4px;
+    /* margin-left: 4px; */
     line-height: 25px;
  }
 
@@ -76,14 +76,4 @@ header{
    color: #2e2e2e;
  }
 
- div#navSet ul#menuBar li a.current{
-   background-color: #E7F6F2;
-   color: #2e2e2e;
-   /* padding-bottom:5px; */
- }
-
- /* div#navSet ul#menuBar li a.current:hover{
-   padding-bottom:25px;
-   
- } */
 
