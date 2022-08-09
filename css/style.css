@@ -76,4 +76,51 @@ header{
    color: #2e2e2e;
  }
 
+ /*start showcase section*/
+
+.lead{
+  font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #395B64;
+    padding: 13px 20px;
+    border: none;
+    /* cursor: pointer; */
+}
+
+.btn:hover{
+  background-color: #E7F6F2;
+  color: #2e2e2e;
+}
+
+div#showcase{
+  background-image: url("../img/annie-spratt-QckxruozjRg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  opacity: 0.8;
+}
+
+div#showcase div.showcase-content{
+  color: #E7F6F2;
+  padding: 170px;
+  text-align: center;
+}
+
+div.showcase-content h1{
+  padding-bottom: 10px;
+  text-shadow: 2px 2px 3px #2e2e2e;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+
 
