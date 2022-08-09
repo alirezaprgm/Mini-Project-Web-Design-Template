@@ -34,8 +34,9 @@ header{
 }
 
  .container{
-    width: 1100px;
+    max-width: 1100px;
     margin: auto;
+
  }
 
  nav#navbar div#logoSet {
@@ -161,9 +162,22 @@ div.info-content #more-btn{
   width: 150px;
 }
 
+/* features section */
+section.features{
+  height: 300px;
+}
 
+section.features div.box{
+  width: 25%;
+  height: 100%;
+  float: left;
+  padding: 50px;
+  text-align: center;
+}
 
+div.box span{
+  margin-bottom: 10px;
+  font-size: 48px;
+}
 
-
-
-
+/* footer */
