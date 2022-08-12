@@ -187,14 +187,23 @@ div.box span{
 /* section intro boxes persons  */
 section#aboutUs{
   width: 100%;
-  height: 700px;
+  height: 1100px;
   background-color:#395B64;
 }
 
 div.boxInfo{
   width: 220px;
   height: 380px;
-  margin-left: 200px;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+div.row1{
+  margin-top: 100px;
+}
+
+div.row2{
+  margin-top:80px;
 }
 
 div.boxInfo div.imgHolder{
