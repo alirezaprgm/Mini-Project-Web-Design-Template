@@ -251,6 +251,21 @@ div.descPerson p{
   line-height: 20px;
 }
 
+/* start contact us section */
+section#contact{
+  width:100%;
+  height:1100px;
+  background-color:#395B64;
+}
 
+section#contact div#introSection{
+  width: 100%;
+  height:400px;
+  background-image:url("../img/parker-byrd-gxD8hCmi0IQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  filter: blur(3px);
+}
 
 /* footer */
