@@ -254,7 +254,7 @@ div.descPerson p{
 /* start contact us section */
 section#contact{
   width:100%;
-  height:1100px;
+  height:1200px;
   background-color:#395B64;
 }
 
@@ -266,6 +266,35 @@ section#contact div#introSection{
   background-size: cover;
   opacity: 0.5;
   filter: blur(3px);
+  position: relative;
 }
+
+section#contact div#contactBox{
+  height: 800px;
+  margin-top:-110px;
+  left:150px;
+  right:150px;
+  position:absolute;
+}
+
+div#contactBox div#infoContact,div#formContact{
+  width: 450px;
+  height:100%;
+  background-color: #fff;
+  display: inline-block;
+}
+
+div#contactBox div#infoContact{
+  float: left;
+}
+
+div#contactBox div#formContact{
+  float: right;
+}
+
+/* div#contactBox div#formContact{
+  width: 400px;
+  height:100%;
+} */
 
 /* footer */
