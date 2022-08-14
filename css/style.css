@@ -278,7 +278,7 @@ section#contact div#contactBox{
 }
 
 div#contactBox div#infoContact,div#formContact{
-  width: 450px;
+  width: 500px;
   height:100%;
   background-color: #fff;
   display: inline-block;
@@ -291,6 +291,24 @@ div#contactBox div#infoContact{
 div#contactBox div#formContact{
   float: right;
 }
+
+div#infoContact h3,div#formContact h3{
+  text-align: center;
+  padding-top:30px;
+  font-size: 28px;
+  color:#555;
+}
+
+div#infoContact span,div#formContact span{
+  font-size: 60px;
+  color: #395B64;
+  margin-left:220px;
+  padding-top: 10px
+}
+
+/* div#formContact span{
+   transform: rotate(-45deg);
+} */
 
 /* div#contactBox div#formContact{
   width: 400px;
