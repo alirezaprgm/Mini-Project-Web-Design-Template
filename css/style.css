@@ -299,7 +299,7 @@ div#infoContact h3,div#formContact h3{
   color:#555;
 }
 
-div#infoContact span,div#formContact span{
+div#infoContact span.material-symbols-outlined,div#formContact span.material-symbols-outlined{
   font-size: 60px;
   color: #395B64;
   margin-left:220px;
