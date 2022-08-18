@@ -312,7 +312,7 @@ div#contactItems{
     padding:2px;
 }
 
-div#contactItems table tr td span {
+div#contactItems table tr td span{
     padding: 10px;
     font-size: 32px;
 }
@@ -330,6 +330,21 @@ tr td iframe#locate{
     width: 250px;
     height: 250px;
     vertical-align: bottom;
+}
+
+    /* set style for email box   */
+
+div#messageBox{
+    margin-top: 50px;
+    padding:2px;
+}
+
+div#contactBox form#frm label{
+    display: inline-block;
+    padding: 10px;
+    /*padding-bottom: 20px;*/
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
 /* div#contactBox div#formContact{
