@@ -335,16 +335,50 @@ tr td iframe#locate{
     /* set style for email box   */
 
 div#messageBox{
-    margin-top: 50px;
-    padding:2px;
+    margin-top: 55px;
+}
+
+div#messageBox form#frm{
+    margin-left: 22px;
 }
 
 div#contactBox form#frm label{
     display: inline-block;
     padding: 10px;
-    /*padding-bottom: 20px;*/
     font-size: 18px;
-    margin-bottom: 5px;
+}
+
+.frmSetStyle{
+    width: 450px;
+    height: 40px;
+    padding: 2px;
+    margin-left: 9px;
+    margin-bottom: 15px;
+}
+span#req{
+    color:crimson;
+}
+
+textarea#message{
+    height: 150px;
+    resize: none;
+}
+
+input[type=submit]#send{
+    margin-top: 10px;
+    width: 125px;
+    height: 45px;
+    border: 0;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #395b64;
+    color: #fff;
+    font-size: 18px;
+}
+
+input[type=submit]#send:hover{
+    background-color:forestgreen ;
+    cursor: pointer;
 }
 
 /* div#contactBox div#formContact{
