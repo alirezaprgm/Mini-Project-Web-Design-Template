@@ -255,7 +255,7 @@ div.descPerson p{
 
 section#contact{
   width:100%;
-  height:1200px;
+  height:1500px;
   background-color:#395B64;
 }
 
@@ -381,9 +381,17 @@ input[type=submit]#send:hover{
     cursor: pointer;
 }
 
-/* div#contactBox div#formContact{
-  width: 400px;
-  height:100%;
-} */
-
 /* footer */
+
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: #2e2e2e;
+    color:#fff;
+    text-align: center;
+    line-height: 90px;
+}
+
+footer p a{
+    color: #fff;
+}
