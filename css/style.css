@@ -168,7 +168,8 @@ div.info-content #more-btn{
 
 /* features section */
 section.features{
-  height: 300px;
+  min-height: 300px;
+  overflow: hidden;
 }
 
 section.features div.box{
@@ -187,7 +188,7 @@ div.box span{
 /* section intro boxes persons  */
 section#aboutUs{
   width: 100%;
-  height: 1230px;
+  min-height: 1230px;
   background-color:#395B64;
 }
 
@@ -212,8 +213,8 @@ div.boxInfo div.imgHolder{
   background-color: #fff;
   border-radius: 14px;
   padding: 20px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 div.imgHolder div.titleInfo{
@@ -279,7 +280,7 @@ section#contact div#contactBox{
 }
 
 div#contactBox div#infoContact,div#formContact{
-  width: 500px;
+  min-width: 500px;
   height:100%;
   background-color: #fff;
   display: inline-block;
@@ -410,4 +411,9 @@ div#upBtn a{
     position: absolute;
     z-index: 1;
     color: #395B64;
+}
+
+div#upBtn a:hover{
+    color: #fff;
+    background-color:forestgreen ;
 }
