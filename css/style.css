@@ -395,3 +395,19 @@ footer{
 footer p a{
     color: #fff;
 }
+
+/* up button */
+div#upBtn a{
+    float: right;
+    width: 75px;
+    height: 75px;
+    right: 30px;
+    top: 4050px;
+    background-color: #E7F6F2;
+    text-align: center;
+    line-height: 75px;
+    font-size: 24px;
+    position: absolute;
+    z-index: 1;
+    color: #395B64;
+}
