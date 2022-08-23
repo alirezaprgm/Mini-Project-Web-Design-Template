@@ -421,10 +421,13 @@ div#upBtn a:hover{
 
 /*media for width 900px*/
 @media screen and (max-width: 900px) {
+
+    /*menu*/
     nav#navbar div#navSet ul#menuBar a{
         font-size: 18px;
     }
 
+    /*showcase */
     div.showcase-content h1{
         font-size: 20px;
         padding: 0;
@@ -438,14 +441,34 @@ div#upBtn a:hover{
     div.showcase-content a{
         width: 100%;
     }
+
+    /*features section*/
+    section.features div.box{
+        padding: 20px;
+    }
+
+    div.box span{
+        font-size: 28px;
+    }
+    div.box h3{
+        font-size: 16px;
+    }
+
+    div.box p blockquote{
+        font-size: 13px;
+    }
+
 }
 
 /*media for width 600px*/
 @media screen and (max-width: 600px) {
+
+    /*menu*/
     nav#navbar div#navSet ul#menuBar a{
         font-size: 12px;
     }
 
+    /*showcase */
     div.showcase-content h1{
         font-size: 16px;
         padding: 0;
@@ -457,9 +480,43 @@ div#upBtn a:hover{
         font-size: 13px;
         line-height: normal;
     }
+
     div.showcase-content a{
         width: 100%;
     }
+
+    /*Home info section */
+    .info-content h2{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    #home-info .info-content p{
+        padding-bottom: 3px;
+        font-size: 12px;
+    }
+
+    div.info-content #more-btn{
+        margin-top: 1px;
+        width: 90px;
+    }
 }
 
+/* features section
+section.features{
+    min-height: 300px;
+    overflow: hidden;
+}
 
+section.features div.box{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+
+div.box span{
+    margin-bottom: 10px;
+    font-size: 48px;
+}*/
