@@ -25,7 +25,7 @@
   }
 
   body{
-    font-family:'roboto_regular' ;
+    font-family:'roboto_regular';
   }
 
   a{
@@ -240,7 +240,7 @@ div.descPerson{
   width:100%;
   height:240px;
   background-color: #eee;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: 0 0 5px 5px;
 }
 
 div.descPerson p{
@@ -253,7 +253,6 @@ div.descPerson p{
 }
 
 /* start contact us section */
-
 section#contact{
   width:100%;
   height:1500px;
@@ -333,8 +332,7 @@ tr td iframe#locate{
     vertical-align: bottom;
 }
 
-    /* set style for email box   */
-
+/* set style for email box   */
 div#messageBox{
     margin-top: 55px;
 }
@@ -417,7 +415,7 @@ div#upBtn a:hover{
     background-color:forestgreen ;
 }
 
-/*start Media  query*/
+/*===========start Media  query==========*/
 
 /*media for width 900px*/
 @media screen and (max-width: 900px) {
@@ -458,6 +456,18 @@ div#upBtn a:hover{
         font-size: 13px;
     }
 
+    /*contact section*/
+    div#contactBox div#infoContact{
+        margin-top: 100px;
+    }
+
+    /*btn up*/
+    div#upBtn a{
+        top:4750px;
+    }
+
+
+
 }
 
 /*media for width 600px*/
@@ -497,26 +507,174 @@ div#upBtn a:hover{
     }
 
     div.info-content #more-btn{
-        margin-top: 1px;
-        width: 90px;
+        margin-top:1px;
+        width:90px;
+    }
+
+    /*contact section*/
+}
+
+/*media for width 1300px*/
+@media screen and (max-width: 1300px) {
+
+    /*contact section*/
+    section#contact div#introSection{
+        width: 0;
+        height:0;
+        background-image:none;
+        position:static;
+    }
+
+    section#contact div#contactBox{
+        height: 800px;
+        margin:auto;
+        position:static;
+    }
+
+}
+
+/*media for width 1000px*/
+@media screen and (max-width: 1000px) {
+
+    section#contact{
+        height:1900px; /*Baznegary*/
+    }
+
+    section#contact div#contactBox{
+        height: 800px;
+        width: 500px;
+        position:static;
+    }
+
+    div#contactBox div#infoContact,div#formContact{
+        height:100%;
+        display: block;
+        float: none;
+        margin:auto;
+    }
+
+    div#contactBox div#infoContact{
+        margin-top: -100px;
+    }
+
+    div#contactBox div#formContact{
+        margin-top: 100px;
+        padding: 0;
+    }
+
+    div#infoContact h3,div#formContact h3{
+        text-align: center;
+        padding-top:20px;
+        font-size: 22px;
+    }
+
+    /*btn up*/
+    div#upBtn a{
+        top:4450px
     }
 }
 
-/* features section
-section.features{
-    min-height: 300px;
-    overflow: hidden;
+/*media for width 968px*/
+@media screen and (max-width: 968px) {
+    section#aboutUs {
+        height: 1500px;
+    }
+
+    div#contactBox div#infoContact{
+        margin-top:0;
+    }
+
+    /*btn up*/
+    div#upBtn a{
+        top:4850px
+    }
+
+
 }
 
-section.features div.box{
-    width: 25%;
-    height: 100%;
-    float: left;
-    padding: 50px;
-    text-align: center;
+
+
+
+/*
+section#contact{
+  width:100%;
+  height:1500px;
+  background-color:#395B64;
 }
 
-div.box span{
-    margin-bottom: 10px;
-    font-size: 48px;
-}*/
+#####section#contact div#introSection{
+  width: 100%;
+  height:400px;
+  background-image:url("../img/parker-byrd-gxD8hCmi0IQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  filter: blur(3px);
+  position: relative;
+}######
+
+section#contact div#contactBox{
+  height: 800px;
+  margin-top:-110px;
+  left:150px;
+  right:150px;
+  position:absolute;
+}
+
+div#contactBox div#infoContact,div#formContact{
+  min-width: 500px;
+  height:100%;
+  background-color: #fff;
+  display: inline-block;
+}
+
+div#contactBox div#infoContact{
+  float: left;
+}
+
+div#contactBox div#formContact{
+  float: right;
+}
+
+#####
+div#infoContact h3,div#formContact h3{
+  text-align: center;
+  padding-top:30px;
+  font-size: 28px;
+  color:#555;
+}######
+
+
+div#infoContact span.material-symbols-outlined,div#formContact span.material-symbols-outlined{
+  font-size: 60px;
+  color: #395B64;
+  margin-left:220px;
+  padding-top: 10px
+}
+
+div#contactItems{
+    margin-top: 50px;
+    padding:2px;
+}
+
+div#contactItems table tr td span{
+    padding: 10px;
+    font-size: 32px;
+}
+
+div#contactItems table tr td {
+    padding: 15px;
+}
+
+
+tr td#locate-ico{
+    vertical-align: top;
+}
+
+tr td iframe#locate{
+    width: 250px;
+    height: 250px;
+    vertical-align: bottom;
+}
+
+*/
