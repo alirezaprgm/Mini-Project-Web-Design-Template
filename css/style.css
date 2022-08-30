@@ -24,8 +24,8 @@
       scroll-behavior: smooth;
   }
 
-  body{
-    font-family:'roboto_regular';
+ body{
+    font-family:'roboto_regular', serif;
   }
 
   a{
@@ -53,7 +53,7 @@ header{
     padding:24px 20px;
     color: #E7F6F2;
     font-size: 22px;
-    font-family:'roboto_light';
+    font-family:'roboto_light', serif;
     letter-spacing: 6px;
     text-shadow: 2px 2px 3px #2e2e2e;
  }
@@ -153,7 +153,7 @@ section#home-info{
 .info-content h2{
   color: #A5C9CA;
   text-shadow: 2px 2px 3px #2e2e2e;
-  font-family: 'roboto_light';
+  font-family: 'roboto_light', serif;
   margin-top: 30px;
 }
 
@@ -211,10 +211,8 @@ div.boxInfo div.imgHolder{
   width: 100%;
   height: 140px;
   background-color: #fff;
-  border-radius: 14px;
+  border-radius:14px 14px 0 0;
   padding: 20px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 div.imgHolder div.titleInfo{
@@ -226,8 +224,7 @@ div.imgHolder div.titleInfo{
 div.boxInfo div.imgHolder div.setInfoImg{
   width:90px;
   height: 90px;
-  margin: auto;
-  margin-top: 15px;
+  margin: 15px auto auto;
 }
 
 div.boxInfo div.imgHolder div.setInfoImg img.imgPerson{
@@ -417,7 +414,98 @@ div#upBtn a:hover{
 
 /*===========start Media  query==========*/
 
-/*media for width 900px*/
+/*▒▒▒▒▒▒▒▒media for width 1300px▒▒▒▒▒▒▒▒*/
+@media screen and (max-width: 1300px) {
+
+    /*contact section*/
+    section#contact{
+        height:1150px;
+    }
+
+    section#contact div#introSection{
+        width: 0;
+        height:0;
+        background-image:none;
+        position:static;
+    }
+
+    section#contact div#contactBox{
+        height: 800px;
+        margin:auto;
+        position:static;
+    }
+
+    /*btn up*/
+    div#upBtn a{
+        top:3720px;
+    }
+
+}
+
+/*▒▒▒▒▒▒▒▒media for width 1000px▒▒▒▒▒▒▒▒▒*/
+@media screen and (max-width: 1000px) {
+    /*contact section*/
+    section#contact{
+        height:1900px;
+    }
+
+    section#contact div#contactBox{
+        height: 800px;
+        width: 500px;
+        position:static;
+    }
+
+    div#contactBox div#infoContact,div#formContact{
+        height:100%;
+        display: block;
+        float: none;
+        margin:auto;
+    }
+
+    div#contactBox div#infoContact{
+        margin-top: -100px;
+    }
+
+    div#contactBox div#formContact{
+        margin-top: 100px;
+        padding: 0;
+    }
+
+    div#infoContact h3,div#formContact h3{
+        text-align: center;
+        padding-top:20px;
+        font-size: 22px;
+    }
+
+    /*section about us */
+        div.boxInfo {
+          margin-left: 8%;
+        }
+
+
+    /*btn up*/
+    div#upBtn a{
+        top:4450px
+    }
+}
+
+/*▒▒▒▒▒▒▒▒media for width 968px▒▒▒▒▒▒▒▒*/
+@media screen and (max-width: 968px) {
+    section#aboutUs {
+        height: 1000px;
+    }
+
+    div#contactBox div#infoContact {
+        margin-top: 0;
+    }
+
+    /*btn up*/
+    div#upBtn a {
+        top: 4550px
+    }
+}
+
+/*▒▒▒▒▒▒▒▒media for width 900px▒▒▒▒▒▒▒▒*/
 @media screen and (max-width: 900px) {
 
     /*menu*/
@@ -456,21 +544,81 @@ div#upBtn a:hover{
         font-size: 13px;
     }
 
+    /*section about us*/
+    div.boxInfo {
+        margin-left: 6.5%;
+    }
+
     /*contact section*/
+    section#aboutUs {
+        height: 1000px;
+    }
+
     div#contactBox div#infoContact{
-        margin-top: 100px;
+        margin-top: 0;
     }
 
     /*btn up*/
     div#upBtn a{
-        top:4750px;
+        top:4450px;
     }
-
-
 
 }
 
-/*media for width 600px*/
+/*▒▒▒▒▒▒▒▒media for width 830px▒▒▒▒▒▒▒▒*/
+@media screen and (max-width: 840px) {
+    /*contact section*/
+    section#contact{
+        height:2000px;
+    }
+
+    div#contactBox div#infoContact{
+        margin-top: 0;
+    }
+
+    /*section about us*/
+    section#aboutUs {
+        height: 1500px;
+    }
+
+    div.boxInfo {
+        margin-left: 15%;
+    }
+
+    /*btn up*/
+    div#upBtn a{
+        top:4850px;
+    }
+}
+
+/*▒▒▒▒▒▒▒▒media for width 800px▒▒▒▒▒▒▒▒*/
+@media screen and (max-width: 800px) {
+    /*section about us*/
+    div.boxInfo {
+        margin-left: 15%;
+    }
+
+    /*btn up*/
+    div#upBtn a{
+        top:4850px;
+    }
+}
+
+/*▒▒▒▒▒▒▒▒media for width 700px▒▒▒▒▒▒▒▒*/
+@media screen and (max-width: 700px) {
+    /*section about us*/
+    div.boxInfo {
+        margin-left: 12%;
+    }
+
+    /*btn up*/
+    div#upBtn a{
+        top:4850px;
+    }
+}
+
+/*▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒RESPONSE FOR DESKTOP AND TABLET . NOT SUPPORT UNDER 600px DEVICE▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒*/
+/*▒▒▒▒▒▒▒▒media for width 600px▒▒▒▒▒▒▒▒*/
 @media screen and (max-width: 600px) {
 
     /*menu*/
@@ -511,170 +659,15 @@ div#upBtn a:hover{
         width:90px;
     }
 
-    /*contact section*/
-}
-
-/*media for width 1300px*/
-@media screen and (max-width: 1300px) {
-
-    /*contact section*/
-    section#contact div#introSection{
-        width: 0;
-        height:0;
-        background-image:none;
-        position:static;
-    }
-
-    section#contact div#contactBox{
-        height: 800px;
-        margin:auto;
-        position:static;
-    }
-
-}
-
-/*media for width 1000px*/
-@media screen and (max-width: 1000px) {
-
-    section#contact{
-        height:1900px; /*Baznegary*/
-    }
-
-    section#contact div#contactBox{
-        height: 800px;
-        width: 500px;
-        position:static;
-    }
-
-    div#contactBox div#infoContact,div#formContact{
-        height:100%;
-        display: block;
-        float: none;
-        margin:auto;
-    }
-
-    div#contactBox div#infoContact{
-        margin-top: -100px;
-    }
-
-    div#contactBox div#formContact{
-        margin-top: 100px;
-        padding: 0;
-    }
-
-    div#infoContact h3,div#formContact h3{
-        text-align: center;
-        padding-top:20px;
-        font-size: 22px;
+    /*section about us*/
+    div.boxInfo {
+        margin-left:8.6%;
     }
 
     /*btn up*/
     div#upBtn a{
-        top:4450px
-    }
-}
-
-/*media for width 968px*/
-@media screen and (max-width: 968px) {
-    section#aboutUs {
-        height: 1500px;
+        top:4920px;
     }
 
-    div#contactBox div#infoContact{
-        margin-top:0;
-    }
-
-    /*btn up*/
-    div#upBtn a{
-        top:4850px
-    }
-
-
 }
-
-
-
-
-/*
-section#contact{
-  width:100%;
-  height:1500px;
-  background-color:#395B64;
-}
-
-#####section#contact div#introSection{
-  width: 100%;
-  height:400px;
-  background-image:url("../img/parker-byrd-gxD8hCmi0IQ-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  filter: blur(3px);
-  position: relative;
-}######
-
-section#contact div#contactBox{
-  height: 800px;
-  margin-top:-110px;
-  left:150px;
-  right:150px;
-  position:absolute;
-}
-
-div#contactBox div#infoContact,div#formContact{
-  min-width: 500px;
-  height:100%;
-  background-color: #fff;
-  display: inline-block;
-}
-
-div#contactBox div#infoContact{
-  float: left;
-}
-
-div#contactBox div#formContact{
-  float: right;
-}
-
-#####
-div#infoContact h3,div#formContact h3{
-  text-align: center;
-  padding-top:30px;
-  font-size: 28px;
-  color:#555;
-}######
-
-
-div#infoContact span.material-symbols-outlined,div#formContact span.material-symbols-outlined{
-  font-size: 60px;
-  color: #395B64;
-  margin-left:220px;
-  padding-top: 10px
-}
-
-div#contactItems{
-    margin-top: 50px;
-    padding:2px;
-}
-
-div#contactItems table tr td span{
-    padding: 10px;
-    font-size: 32px;
-}
-
-div#contactItems table tr td {
-    padding: 15px;
-}
-
-
-tr td#locate-ico{
-    vertical-align: top;
-}
-
-tr td iframe#locate{
-    width: 250px;
-    height: 250px;
-    vertical-align: bottom;
-}
-
-*/
+/*▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒*/
