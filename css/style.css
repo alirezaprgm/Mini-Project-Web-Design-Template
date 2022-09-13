@@ -51,12 +51,11 @@ header{
  nav#navbar div#logoSet h1 a{
     display: inline-block;
     padding:24px 20px;
-    color:#E7F6F2;
+    color:#fff;
     font-size: 22px;
-    font-family:'roboto_light', serif;
-    letter-spacing: 2px;
-    text-shadow: 2px 3px 4px #2e2e2e;
-    background-color: #8855aa;
+    font-family:'roboto_regular', serif;
+    /* letter-spacing: 2px; */
+    text-shadow: 5px 5px 3px #2e2e2e;
  }
 
  nav#navbar div#navSet{
