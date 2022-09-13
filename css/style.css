@@ -49,13 +49,14 @@ header{
  }
 
  nav#navbar div#logoSet h1 a{
-    display: block;
+    display: inline-block;
     padding:24px 20px;
-    color: #E7F6F2;
+    color:#E7F6F2;
     font-size: 22px;
     font-family:'roboto_light', serif;
-    letter-spacing: 6px;
-    text-shadow: 2px 2px 3px #2e2e2e;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 4px #2e2e2e;
+    background-color: #8855aa;
  }
 
  nav#navbar div#navSet{
